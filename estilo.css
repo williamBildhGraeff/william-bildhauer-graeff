@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    height: 90%;
+    width: 100%;
+    position: fixed;
+}
+.tab-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablinks {
+    width: 25%;
+    height: 40px;
+    margin-right: 10px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.tablinks:hover {
+    cursor: pointer;
+    background-color: rgb(52, 52, 52);
+}
+
+.button-return {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(101, 101, 101);
+    width: 100%;
+    padding: 5px;
+}
+
+.title {
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    max-height: 700px;
+    display: flex;
+    border: solid 1px black;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.card:hover {
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.card-header {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
+
+.anchor {
+    color: #000;
+}
+
+.anchor:visited {
+    color: #000;
+}
+
+.label {
+    font-size: small;
+    margin-right: 5px;
+}
+
+.field {
+    border-radius: 5px;
+}
+
+.form-body{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+.textarea {
+    max-width: 170px;
+    max-height: 60px;
+}
+
+.button-send {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-right: 10px;
+}
