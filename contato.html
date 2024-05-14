@@ -11,15 +11,18 @@
 <body>
     <div class="header">
         <div>
+            <!-- Usei um botão para fazer o redirecionamento da página -->
             <button class="button-return" onclick="window.location.replace('index.html')">voltar</button>
         </div>
         <div class="title">
+            <!-- título da página -->
             <p style="margin: 0;"><strong>Contato</strong></p>
         </div>
     </div>
     <div class="content">
         <div class="card">
             <div class="container">
+                <!-- Formulário para cadastro de contato -->
                 <h4 class="card-header"><b>Formulário</b></h4>
                 <div class="form">
                     <div class="form-body">
@@ -35,7 +38,12 @@
                         <textarea class="field textarea" id="mensagem" type="mensagem" cols="22" placeholder="Mensagem"></textarea>
                     </div>
                     <div style="float: inline-end;">
-                        <button class="button-send">Enviar</button>
+                        <!-- botão para enviar -->
+                        <button 
+                            class="button-send" 
+                            onclick="alert('Esse botão não envia nada, só está para completar o formulário')">
+                            Enviar
+                        </button>
                     </div>
                 </div>
             </div>
